@@ -4,8 +4,10 @@ body{
 
 .container{
     border: solid 1px red;
-    display: flex;
-    flex-direction: row;
+    padding: 8px;
+    
+    height: 300px;
+ 
 }
 
 @media screen and (max-width: 900px) {
@@ -16,9 +18,12 @@ body{
 
 h1{
     color: rgb(201, 201, 201);
-    border: solid pink 1px;
+
 }
 
 .item{
     border: solid green 1px;
+    position: absolute;
+    top: 0;
+ 
 }
