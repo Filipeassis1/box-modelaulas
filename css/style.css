@@ -1,0 +1,24 @@
+body{
+    background-color: #4d3d3d;
+}
+
+.container{
+    border: solid 1px red;
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 900px) {
+    .container{
+        flex-direction: column;
+    }
+}
+
+h1{
+    color: rgb(201, 201, 201);
+    border: solid pink 1px;
+}
+
+.item{
+    border: solid green 1px;
+}
